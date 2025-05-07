@@ -1,0 +1,13 @@
+# Node.js
+node_modules/
+
+# Logs
+*.log
+
+# Diretórios de dependências locais
+npm-debug.log*
+yarn-error.log*
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
