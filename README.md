@@ -17,6 +17,25 @@ Praticar lógica de programação, entrada e saída de dados, controle de fluxo 
 
 ---
 
+## 📁 Estrutura do projeto
+
+```bash
+maisprati-node-exercicios/
+├── exercicios/
+│   ├── ex01.js         # Exercício 1 - Descrição breve
+│   ├── ex02.js         # Exercício 2 - Descrição breve
+│   └── ...             # Até o ex15.js
+│
+├── utils/
+│   └── prompt.js       # Centralização da configuração do prompt-sync
+│
+├── package.json        # Informações e dependências do projeto
+├── README.md           # Este arquivo
+└── .gitignore          # (Opcional) Ignorar node_modules
+```
+
+---
+
 ## 🛠️ Como instalar e configurar o projeto
 
 1. **Clone o repositório:**
@@ -42,23 +61,6 @@ Para rodar o exercício 1:
 
 ```bash
 node exercicios/ex01.js
-```
-
-## 📁 Estrutura do projeto
-
-```bash
-maisprati-node-exercicios/
-├── exercicios/
-│   ├── ex01.js         # Exercício 1 - Descrição breve
-│   ├── ex02.js         # Exercício 2 - Descrição breve
-│   └── ...             # Até o ex15.js
-│
-├── utils/
-│   └── prompt.js       # Centralização da configuração do prompt-sync
-│
-├── package.json        # Informações e dependências do projeto
-├── README.md           # Este arquivo
-└── .gitignore          # (Opcional) Ignorar node_modules
 ```
 
 ## 📋 Lista de Exercícios
