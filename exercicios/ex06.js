@@ -6,7 +6,7 @@ let a = parseFloat(prompt("Digite o valor do lado A: ").replace(",", "."))
 let b = parseFloat(prompt("Digite o valor do lado B: ").replace(",", "."))
 let c = parseFloat(prompt("Digite o valor do lado C: ").replace(",", "."))
 
-if (isNaN(a) || isNaN(0) || isNaN(c) || a <= 0 || b <= 0 || c <= 0) {
+if (isNaN(a) || isNaN(b) || isNaN(c) || a <= 0 || b <= 0 || c <= 0) {
     console.log("Por favor, insira valores válidos e positivos para os lados.")
 } else {
     if ( a + b > c && a + c > b && b + c > a) {
