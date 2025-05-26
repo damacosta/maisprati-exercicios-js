@@ -23,7 +23,7 @@ Praticar lógica de programação, entrada e saída de dados, controle de fluxo 
 ## 📁 Estrutura do projeto
 
 ```bash
-maisprati-node-exercicios/
+maisprati-exercícios-avaliativa-1-js/
 ├── exercicios/
 │   ├── ex01.js         # Exercício 1 - Descrição breve
 │   ├── ex02.js         # Exercício 2 - Descrição breve
@@ -44,8 +44,8 @@ maisprati-node-exercicios/
 1. **Clone o repositório:**
 
 ```bash
-git clone https://github.com/damacosta/maisprati-exercicios-js.git
-cd maisprati-exercicios-js
+git clone https://github.com/damacosta/maisprati-exercícios-avaliativa-1-js.git
+cd maisprati-exercícios-avaliativa-1-js
 ```
 
 2. **Instale as dependências:**
