@@ -54,6 +54,8 @@ cd maisprati-exercícios-avaliativa-1-js
 npm install
 ```
 
+---
+
 ## ▶️ Como executar os exercícios
 
 Os arquivos dos exercícios estão na pasta `exercicios/`, nomeados como `ex01.js`, `ex02.js` até `ex15.js`.
@@ -73,6 +75,8 @@ Se você estiver utilizando o VS Code com a extensão **Code Runner**, pode roda
 1. Abra o arquivo desejado, como `ex01.js`
 2. Pressione `Ctrl + Alt + N` ou clique com o botão direito e selecione **"Run Code"**
 3. O resultado aparecerá no terminal inferior do VS Code
+
+---
 
 ## 📋 Lista de Exercícios
 
@@ -98,6 +102,8 @@ Se você estiver utilizando o VS Code com a extensão **Code Runner**, pode roda
 | 13 | `ex13.js` | Calculadora de média aritmética |
 | 14 | `ex14.js` | Calculadora fatorial |
 | 15 | `ex15.js` | Gerador de sequência Fibonacci |
+
+---
 
 ## 👨‍💻 Autoria
 
