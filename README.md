@@ -1,6 +1,6 @@
 # 🚀 Exercícios MaisPraTi - Dev Fullstack Júnior
 
-Este repositório contém a resolução dos exercícios propostos no curso **Dev Fullstack Júnior** da iniciativa **MaisPraTi / Codifica**. Os exercícios foram desenvolvidos em JavaScript com execução via Node.js, utilizando entrada de dados pelo terminal com a biblioteca `prompt-sync`.
+Este repositório contém a resolução dos exercícios propostos no curso **Dev Fullstack Júnior** da iniciativa **MaisPraTi / Codifica** e ministrado pelo professor **Jacques Antunes**. Os exercícios foram desenvolvidos em JavaScript com execução via Node.js, utilizando entrada de dados pelo terminal com a biblioteca `prompt-sync`.
 
 ---
 
