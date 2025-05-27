@@ -102,4 +102,4 @@ Se você estiver utilizando o VS Code com a extensão **Code Runner**, pode roda
 ## 👨‍💻 Autoria
 
 Desenvolvido por **Danielle Costa** como parte do curso **MaisPraTi - Codifica**.  
-**Contato**: d.mariano.costa@gmail.com | GitHub: [@damacosta](https://github.com/damacosta) | LinkedIn: [@daniellecostadev](https://www.linkedin.com/in/daniellecostadev/)
+**Contato**: d.mariano.costa@gmail.com | **Instagram:** [@da.macosta](https://www.instagram.com/da.macosta/) | **LinkedIn:** [@daniellecostadev](https://www.linkedin.com/in/daniellecostadev/)
