@@ -23,7 +23,7 @@ Praticar lógica de programação, entrada e saída de dados, controle de fluxo 
 ## 📁 Estrutura do projeto
 
 ```bash
-maisprati-exercícios-avaliativa-1-js/
+maisprati-exercícios-js/
 ├── exercicios/
 │   ├── ex01.js         # Exercício 1 - Descrição breve
 │   ├── ex02.js         # Exercício 2 - Descrição breve
@@ -44,8 +44,8 @@ maisprati-exercícios-avaliativa-1-js/
 1. **Clone o repositório:**
 
 ```bash
-git clone https://github.com/damacosta/maisprati-exercícios-avaliativa-1-js.git
-cd maisprati-exercícios-avaliativa-1-js
+git clone https://github.com/damacosta/maisprati-exercícios-js.git
+cd maisprati-exercícios-js
 ```
 
 2. **Instale as dependências:**
@@ -58,14 +58,15 @@ npm install
 
 ## ▶️ Como executar os exercícios
 
-Os arquivos dos exercícios estão na pasta `exercicios/`, nomeados como `ex01.js`, `ex02.js` até `ex15.js`.
+Os arquivos dos exercícios estão na pasta `exercicios-1/`, nomeados como `ex01.js`, `ex02.js` até `ex15.js`.
 
 ### Exemplo:
 
-Para rodar o exercício 1:
+Para rodar o exercício 1 e 2:
 
 ```bash
-node exercicios/ex01.js
+node exercicios-1/ex01.js
+node exercicios-2/ex01.js
 ```
 
 ### 💡 Dica: Executando com o Code Runner no VS Code
@@ -75,33 +76,6 @@ Se você estiver utilizando o VS Code com a extensão **Code Runner**, pode roda
 1. Abra o arquivo desejado, como `ex01.js`
 2. Pressione `Ctrl + Alt + N` ou clique com o botão direito e selecione **"Run Code"**
 3. O resultado aparecerá no terminal inferior do VS Code
-
----
-
-## 📋 Lista de Exercícios
-
-### 🔍 Condicionais
-| #  | Exercício | Descrição |
-|----|-----------|-----------|
-| 1  | `ex01.js` | Verificar se número é par ou ímpar |
-| 2  | `ex02.js` | Classificar idade em categorias |
-| 3  | `ex03.js` | Avaliar situação acadêmica por nota |
-| 4  | `ex04.js` | Menu interativo com switch-case |
-| 5  | `ex05.js` | Calculadora de IMC com classificação |
-| 6  | `ex06.js` | Verificador de tipos de triângulo |
-| 7  | `ex07.js` | Calculadora de preço de maçãs |
-| 8  | `ex08.js` | Ordenador de dois valores |
-
-### 🔁 Loops 
-| #  | Exercício | Descrição |
-|----|-----------|-----------|
-| 9  | `ex09.js` | Contagem regressiva 10→1 |
-| 10 | `ex10.js` | Repetir número 10x |
-| 11 | `ex11.js` | Somar 5 números inputados |
-| 12 | `ex12.js` | Gerador de tabuada |
-| 13 | `ex13.js` | Calculadora de média aritmética |
-| 14 | `ex14.js` | Calculadora fatorial |
-| 15 | `ex15.js` | Gerador de sequência Fibonacci |
 
 ---
 
