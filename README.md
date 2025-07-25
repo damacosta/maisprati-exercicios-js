@@ -20,11 +20,18 @@ Praticar lógica de programação, entrada e saída de dados, controle de fluxo 
 
 ---
 
+## 📦 Módulos do Curso
+
+- [Módulo 1 – Lógica de Programação](./module-01-logic/)
+- [Módulo 2 – Front-End](./module-02-frontend/)
+
+---
+
 ## 📁 Estrutura do projeto
 
 ```bash
 maisprati-exercicios-js/
-├── exercicios/
+├── module-01-logic/exercises/
 │   ├── ex01.js         # Exercício 1 - Descrição breve
 │   ├── ex02.js         # Exercício 2 - Descrição breve
 │   └── ...             # Até o ex15.js
@@ -58,15 +65,15 @@ npm install
 
 ## ▶️ Como executar os exercícios
 
-Os arquivos dos exercícios estão na pasta `exercicios-1/`, nomeados como `ex01.js`, `ex02.js` até `ex15.js`.
+Os arquivos dos exercícios estão na pasta `exercises-1/`, nomeados como `ex01.js`, `ex02.js` até `ex15.js`.
 
 ### Exemplo:
 
 Para rodar o exercício 1 e 2:
 
 ```bash
-node exercicios-1/ex01.js
-node exercicios-2/ex01.js
+node module-01-logic/exercises-1/ex01.js
+node module-01-logic/exercises-2/ex01.js
 ```
 
 ### 💡 Dica: Executando com o Code Runner no VS Code
@@ -82,4 +89,4 @@ Se você estiver utilizando o VS Code com a extensão **Code Runner**, pode roda
 ## 👨‍💻 Autoria
 
 Desenvolvido por **Danielle Costa** como parte do curso **MaisPraTi - Codifica**.  
-**Contato**: d.mariano.costa@gmail.com | **Instagram:** [@da.macosta](https://www.instagram.com/da.macosta/) | **LinkedIn:** [@daniellecostadev](https://www.linkedin.com/in/daniellecostadev/)
+**Contato**: d.mariano.costa@gmail.com | **Instagram:** [@da.macosta](https://www.instagram.com/da.macosta/) | **LinkedIn:** [@daniellecostadev](https://www.linkedin.com/in/daniellecostadev/) | **Portfólio:** https://daniellecosta.dev.br/
