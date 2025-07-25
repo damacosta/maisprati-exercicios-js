@@ -2,7 +2,7 @@
 
 ## 🔍 Condicionais
 | #  | Arquivo    | Descrição                               |
-|----|------------|------------------------------------------|
+|----|------------|-----------------------------------------|
 | 1  | `ex01.js`  | Verificar se número é par ou ímpar      |
 | 2  | `ex02.js`  | Classificar idade em categorias         |
 | 3  | `ex03.js`  | Avaliar situação acadêmica por nota     |
@@ -14,7 +14,7 @@
 
 ## 🔁 Loops
 | #  | Arquivo    | Descrição                               |
-|----|------------|------------------------------------------|
+|----|------------|-----------------------------------------|
 | 9  | `ex09.js`  | Contagem regressiva 10→1                |
 | 10 | `ex10.js`  | Repetir número 10x                      |
 | 11 | `ex11.js`  | Somar 5 números inputados               |
