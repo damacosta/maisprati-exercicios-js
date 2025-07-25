@@ -1,0 +1,70 @@
+<!--
+Exercício 3: Formulário de Feedback
+
+Em um arquivo chamado feedback.html, construa um formulário que contenha:
+
+- Campo para Nome
+- Campo para E-mail
+- Campo para Endereço Completo
+- Campo para Tipo de Feedback (pode ser um <select> ou <radio>)
+- Campo de texto para o Feedback (use <textarea>)
+- Botão de Envio
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefa 3</title>
+</head>
+
+<body>
+    <header>
+        <h1> Formulário de Feedback </h1>
+
+        <form method="post">
+            <label for="Nome">Nome: </label>
+            <input type="text" name="nome" id="nome" placeholder="Seu Nome Completo" required>
+
+            <br>
+            <br>
+
+            <label for="E-mail">E-mail </label>
+            <input type="email" name="email" id="email" placeholder="seu@email.com" required>
+
+            <br>
+            <br>
+
+            <label for="Endereço">Endereço </label>
+            <input type="endereco" name="endereco" id="endereco" placeholder="Rua, Número, Bairro e Cidade" required>
+
+            <br>
+            <br>
+
+            <label for="tipo">Tipo de Feedback: </label>
+            <select id="tipo" name="tipo" required>
+                <option value="">Selecione... </option>
+                <option value="">Elogio</option>
+                <option value="">Sugestão</option>
+                <option value="">Reclamação</option>
+            </select>
+
+            <br>
+            <br>
+
+            <label for="mensagem">Seu Feedback: </label>
+            <textarea id="mensagem" name="mensagem" rows="5" cols="40" placeholder="Digite seu feedback aqui..."
+                required></textarea>
+
+            <br>
+            <br>
+
+            <button type="" submit">Enviar</button>
+
+        </form>
+    </header>
+</body>
+
+</html>
