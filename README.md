@@ -22,8 +22,8 @@ Praticar lógica de programação, entrada e saída de dados, controle de fluxo 
 
 ## 📦 Módulos do Curso
 
-- [Módulo 1 – Lógica de Programação](./module-01-logic/)
-- [Módulo 2 – Front-End](./module-02-frontend/)
+- [Módulo 1 – Lógica de Programação](/module-01-logic/)
+- [Módulo 2 – Front-End](/module-2-frontend)
 
 ---
 
