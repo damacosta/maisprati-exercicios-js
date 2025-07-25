@@ -1,0 +1,48 @@
+<!-- 
+  Exercício 7 - Menu Hamburger Responsivo
+
+  - O menu “hamburger” deve aparecer somente em telas com largura menor ou igual a 600px.
+  - Em telas pequenas, a navegação padrão fica oculta para economizar espaço.
+  - Ao clicar no ícone do hamburger, o menu de navegação abre ou fecha, facilitando a interação em dispositivos móveis.
+  
+  Essa técnica é essencial para criar sites responsivos e melhorar a experiência do usuário em smartphones e tablets.
+-->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tarefa 7</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <a href="#" class="logo">Meu Site</a>
+
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Serviços</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+
+      <button class="hamburger" id="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Página de Conteúdo</h1>
+    <p>Redimensione a janela para ver o menu responsivo em ação.</p>
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
