@@ -42,6 +42,4 @@ Basta abrir o arquivo `perfil.html` em qualquer navegador moderno para visualiza
 
 Danielle Costa — [LinkedIn](https://www.linkedin.com/in/daniellecostadev/) | [GitHub](https://github.com/damacosta)
 
----
-
-*Este projeto foi desenvolvido como parte da atividade do curso de Desenvolvimento FullStack da +PraTi.*
+*💻 Este projeto foi desenvolvido por Danielle Costa, como parte da atividade do curso de Desenvolvimento FullStack da +PraTi.*
