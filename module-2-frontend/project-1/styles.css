@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -15,7 +17,7 @@
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: var(--cor-fundo);
     color: var(--cor-texto);
     line-height: 1.6;
@@ -158,6 +160,11 @@ aside h3::before {
 
 .projeto-card:last-child {
     margin-bottom: 0;
+}
+
+.projeto-links a {
+    color: var(--cor-secundaria);
+    text-decoration: none;
 }
 
 #mensagem {
