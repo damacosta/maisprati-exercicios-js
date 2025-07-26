@@ -34,6 +34,14 @@ As seguintes ferramentas e tecnologias foram usadas na construção do projeto:
 
 ---
 
+## 🚀 Como Executar
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/damacosta/maisprati-exercicios-js.git
+```
+
 ## Como visualizar 👀
 
 Basta abrir o arquivo `perfil.html` em qualquer navegador moderno para visualizar a página.
