@@ -7,11 +7,32 @@ Este projeto consiste em uma página web de perfil pessoal desenvolvida para fin
 - `perfil.html` — arquivo principal com a estrutura semântica da página.
 - `styles.css` — arquivo de estilos com layout responsivo, usando Flexbox, Grid, variáveis CSS e pseudo-classes.
 
+## ✨ Funcionalidades
+
+O projeto implementa as seguintes funcionalidades:
+
+- **Header Pessoal**: Cabeçalho com foto, nome e subtítulo.  
+- **Navegação Fixa**: Um menu de navegação (`<nav>`) que permanece no topo da tela e direciona para as seções da página.  
+- **Seções de Conteúdo**: Blocos temáticos para "Sobre Mim", "Habilidades" e "Projetos".  
+- **Barra Lateral**: Uma seção `<aside>` com informações complementares, como links para redes sociais.  
+- **Layout Responsivo**: A página se adapta a diferentes tamanhos de tela, de desktops a dispositivos móveis, utilizando Flexbox e Media Queries.  
+- **Rodapé Informativo**: Um rodapé (`<footer>`) com informações de contato e direitos autorais.
+**Estilização Avançada**:  
+- Uso de **Variáveis CSS** para um tema de cores consistente e de fácil manutenção.  
+- Uso de **pseudo-classes** (`:hover`) para interatividade.  
+- Uso de **pseudo-elementos** (`::before`) para detalhes visuais nos títulos.  
+
+
 ## Tecnologias Utilizadas 🛠️
 
-- HTML5
-- CSS3 (Flexbox, Grid, variáveis, pseudo-classes)
-- Ícones com Devicon
+As seguintes ferramentas e tecnologias foram usadas na construção do projeto:
+
+- **HTML5**: Para a estrutura e semântica do conteúdo.  
+- **CSS3**: Para estilização, layout (Flexbox) e responsividade.  
+- **Devicon**: Biblioteca de ícones para as tecnologias na seção de habilidades.  
+- **Font Awesome**: Biblioteca de ícones para links externos e de navegação.
+
+---
 
 ## Como visualizar 👀
 
