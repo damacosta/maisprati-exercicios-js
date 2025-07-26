@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil Pessoal - Seu Nome</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+</head>
+
+<body>
+
+    <header>
+        <img class="perfil-img" src="/module-2-frontend/project-1/assets/img/danielle.png"
+            alt="Foto de perfil de [Seu Nome]">
+        <div class="perfil-info">
+            <h1>Danielle Costa</h1>
+            <p>Desenvolvedora Web | Apaixonada por Tecnologia</p>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <!--       <a href="#" class="logo">SN</a>-->
+        <ul class="nav-menu" id="nav-menu">
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+    </nav>
+
+    <div class="container">
+        <main>
+            <section id="sobre">
+                <h2>Sobre Mim</h2>
+                <p>Olá! Sou uma desenvolvedora web em formação, com grande interesse em criar soluções digitais que
+                    sejam tanto funcionais quanto visualmente agradáveis. Estou sempre em busca de novos desafios e
+                    oportunidades para aprender e aprimorar minhas habilidades em programação e design.</p>
+            </section>
+
+            <section id="habilidades">
+                <h2>Habilidades</h2>
+                <div class="habilidades-grid">
+                    <div class="habilidade-card"><i class="devicon-html5-plain colored"></i><span>HTML5</span></div>
+                    <div class="habilidade-card"><i class="devicon-css3-plain colored"></i><span>CSS3</span></div>
+                    <div class="habilidade-card"><i class="devicon-javascript-plain colored"></i><span>JavaScript</span>
+                    </div>
+                    <div class="habilidade-card"><i class="devicon-typescript-plain colored"></i><span>TypeScript</span>
+                    </div>
+                    <div class="habilidade-card"><i class="devicon-react-original colored"></i><span>React</span></div>
+                    <div class="habilidade-card"><i class="devicon-nextjs-original colored"></i><span>Next.js</span>
+                    </div>
+                    <div class="habilidade-card"><i class="devicon-nodejs-plain colored"></i><span>Node.js</span></div>
+                    <div class="habilidade-card"><i class="devicon-express-original colored"></i><span>Express</span>
+                    </div>
+                    <div class="habilidade-card"><i class="devicon-mongodb-plain colored"></i><span>MongoDB</span></div>
+                    <div class="habilidade-card"><i class="devicon-git-plain colored"></i><span>Git</span></div>
+                    <div class="habilidade-card"><i class="devicon-figma-plain colored"></i><span>Figma</span></div>
+                </div>
+            </section>
+
+            <section id="projetos">
+                <h2>Projetos</h2>
+                <div class="projetos-grid">
+                    <!-- Projeto 1 -->
+                    <article class="projeto-card">
+                        <div class="projeto-conteudo">
+                            <h3>Patatech: Adoção de Animais</h3>
+                            <p>Plataforma full-stack de adoção de animais com painéis para administradores e usuários, desenvolvida para a ONG Projeto Bonny.</p>
+                            <div class="projeto-tags">
+                                <span>Next.js</span>
+                                <span>TypeScript</span>
+                                <span>NestJS</span>
+                                <span>Tailwind CSS</span>
+                            </div>
+                            <div class="projeto-links">
+                                <a href="https://bonny-frontend.vercel.app/" class="link-destaque">Ver projeto <i class="fas fa-arrow-right"></i></a>
+                                <a href="https://github.com/damacosta/bonny-frontend" aria-label="Ver código no GitHub"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Projeto 2 -->
+                    <article class="projeto-card">
+                        <div class="projeto-conteudo">
+                            <h3>Tech.folio: Plataforma de Portfólios</h3>
+                            <p>Plataforma para criação e gerenciamento de portfólios digitais, voltada para estudantes e recém-formados da área de tecnologia.</p>
+                            <div class="projeto-tags">
+                                <span>React.js</span>
+                                <span>Next.js</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                            </div>
+                            <div class="projeto-links">
+                                <a href="https://portfohub.vercel.app/" class="link-destaque">Ver projeto <i class="fas fa-arrow-right"></i></a>
+                                <a href="https://github.com/damacosta/portfohub" aria-label="Ver código no GitHub"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Projeto 3 -->
+                    <article class="projeto-card">
+                        <div class="projeto-conteudo">
+                            <h3>Página Oficial | ProGirls</h3>
+                            <p>Desenvolvimento voluntário da página oficial da comunidade ProGirls, com foco em APIs e integração de dados. <b>(Em andamento)</b></p>
+                            <div class="projeto-tags">
+                                <span>React.js</span>
+                                <span>Python</span>
+                                <span>API REST</span>
+                                <span>Tailwind CSS</span>
+                            </div>
+                            <div class="projeto-links">
+                                <a href="https://github.com/damacosta/progirls-frontend.git" aria-label="Ver código no GitHub"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                
+                <br>
+
+                <div id="mensagem">
+                <p><strong>Gostou?</strong> Dá uma olhadinha em <a href="https://daniellecosta.dev.br/" target="_blank" rel="noopener noreferrer">outros projetos que desenvolvi.</a> 💻✨</p>
+                </div>
+
+            </section>
+        </main>
+
+        <aside>
+            <h3>Redes Sociais</h3>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/daniellecostadev/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/damacosta" target="_blank">GitHub</a></li>
+                <li><a href="https://www.instagram.com/da.macosta/" target="_blank">Instagram</a></li>
+            </ul>
+        </aside>
+    </div>
+
+    <footer id="contato">
+        <h2>Contato</h2>
+        <p>Você pode me encontrar em d.mariano.costa@gmail.com</p>
+        <div class="copyright">
+            &copy; 2025 - Danielle Costa.
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
