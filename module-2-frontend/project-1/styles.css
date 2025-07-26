@@ -49,7 +49,7 @@ header {
 
 .navbar {
     display: flex;
-    justify-content: center; /* Centraliza o menu já que o logo foi removido */
+    justify-content: center;
     align-items: center;
     padding: 1rem 1.5rem;
     background-color: #ffffff;
@@ -80,24 +80,6 @@ header {
     color: var(--cor-secundaria);
 }
 
-.hamburger {
-    display: none;
-    cursor: pointer;
-    background: none;
-    border: none;
-    position: absolute; /* Garante que o botão fique à direita */
-    right: 1.5rem;
-}
-
-.bar {
-    display: block;
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
-    transition: all 0.3s ease-in-out;
-    background-color: var(--cor-texto);
-}
-
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -119,7 +101,7 @@ aside {
     padding: 2rem;
     border-radius: 8px;
     box-shadow: var(--sombra-padrao);
-    height: fit-content; /* Faz a altura se ajustar ao conteúdo */
+    height: fit-content;
 }
 
 main section {
@@ -130,21 +112,24 @@ main section {
     box-shadow: var(--sombra-padrao);
 }
 
-section h2, aside h3 {
+section h2,
+aside h3 {
     color: var(--cor-secundaria);
     margin-bottom: 1rem;
     padding-bottom: 0.5rem;
     display: inline-block;
-
+    position: relative;
 }
 
-section h2::before {
-  content: "";
-  display: block;
-  height: 2px;
-  background-color: var(--cor-secundaria);
+section h2::before,
+aside h3::before {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 50px;
+    background-color: var(--cor-secundaria);
+    margin-bottom: 8px;
 }
-
 
 .habilidades-grid {
     display: grid;
@@ -160,9 +145,10 @@ section h2::before {
     gap: 0.5rem;
 }
 
-.habilidade-card i, .habilidade-card img {
+.habilidade-card i,
+.habilidade-card img {
     font-size: 3rem;
-    height: 48px; /* Altura padrão para os ícones que são imagens */
+    height: 48px;
 }
 
 .projeto-card {
@@ -198,13 +184,6 @@ aside ul li a:hover {
     color: var(--cor-secundaria);
 }
 
-aside h3::before {
-  content: "";
-  display: block;
-  height: 2px;
-  background-color: var(--cor-secundaria);
-}
-
 footer {
     text-align: center;
     padding: 2rem;
@@ -225,32 +204,8 @@ footer .copyright {
 }
 
 @media (max-width: 768px) {
-    .hamburger {
-        display: block;
-    }
     .nav-menu {
-        position: fixed;
-        right: -100%;
-        top: 68px; /* Altura da barra de navegação */
-        flex-direction: column;
-        background-color: #ffffff;
-        width: 100%;
-        height: calc(100vh - 68px);
-        text-align: center;
-        transition: 0.3s;
-        gap: 0;
-        padding-top: 2rem;
-    }
-    .nav-menu.ativo {
-        right: 0;
-    }
-    .hamburger.ativo .bar:nth-child(2) {
-        opacity: 0;
-    }
-    .hamburger.ativo .bar:nth-child(1) {
-        transform: translateY(8px) rotate(45deg);
-    }
-    .hamburger.ativo .bar:nth-child(3) {
-        transform: translateY(-8px) rotate(-45deg);
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
